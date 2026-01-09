@@ -124,6 +124,12 @@
 
 ![KakaoTalk_Video_2026-01-09-22-33-59](https://github.com/user-attachments/assets/2f604f6c-7e34-4a92-bfe5-cc27d8a3c233)
 
+- 최적화 시뮬레이션 데이터
+
+<img width="808" height="428" alt="image" src="https://github.com/user-attachments/assets/e881e9c3-b287-4b20-9f08-94fa519dd719" />
+
+
+
 <br>
 
 ## Conclusion

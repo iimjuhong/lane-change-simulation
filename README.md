@@ -96,7 +96,7 @@
     - `TargetActors` (장애물 위치), `Lane Boundaries` (차선 정보), `TrajectoryInfo` (경로 정보), `PlannerParams` (설정값), `Velocity` (내 속도)
 
 - 주요 평가 항목
-    - **`Verify No Collision` (충돌 여부)**: 내 차가 장애물 차량이나 가드레일과 부딪혔는지 감시. 만약 닿았다면 시뮬레이션 실패임**(장애물 회피 시나리오에서 가장 중요하게 봐야 할 부분)**
+    - **`Verify No Collision` (충돌 여부)**: 내 차가 장애물 차량이나 가드레일과 부딪혔는지 감시. 만약 닿았다면 시뮬레이션 실패임
     - **`Verify Time Gap` (안전 거리 확보)**: 앞차와의 거리(차간 시간)가 적절한지 봄
     - **`Verify Safety` (종합 안전)**: 충돌 임박 시간(TTC) 등을 계산해서 위험한 상황인지 판단
 

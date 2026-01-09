@@ -61,6 +61,7 @@
 입력 : RefPointOnPath(목표 경로)
 
 - 버스 셀렉터를 통해 3개로 쪼개짐
+
     - **RefVelocity**: 목표 속도 (얼마나 빨리 달릴 것인가)
     - **RefCurvature**: 도로의 굽은 정도 (곡률)
     - **LatOffset**: 경로 중심에서 얼마나 벗어나야 하는지 (차선 변경 시 중요)
@@ -91,7 +92,9 @@
 
 1. Collision Detection (안전성 평가)
 
-- 입력값 : `TargetActors` (장애물 위치), `Lane Boundaries` (차선 정보), `TrajectoryInfo` (경로 정보), `PlannerParams` (설정값), `Velocity` (내 속도)
+- 입력값
+    - `TargetActors` (장애물 위치), `Lane Boundaries` (차선 정보), `TrajectoryInfo` (경로 정보), `PlannerParams` (설정값), `Velocity` (내 속도)
+
 - 주요 평가 항목
     - **`Verify No Collision` (충돌 여부)**: 내 차가 장애물 차량이나 가드레일과 부딪혔는지 감시. 만약 닿았다면 시뮬레이션 실패임**(장애물 회피 시나리오에서 가장 중요하게 봐야 할 부분)**
     - **`Verify Time Gap` (안전 거리 확보)**: 앞차와의 거리(차간 시간)가 적절한지 봄www
